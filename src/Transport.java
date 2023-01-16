@@ -125,5 +125,14 @@ public class Transport {
         public int hashCode() {
             return Objects.hash(brand, model, engineVolume, color, year, country, typeOfGear, typeOfBodywork, registrationNumber, seatsQuantity, typeOfTires, id);
         }
+
+        public static class Key {
+            private final boolean noKeyIgnition;
+            private final boolean distantIgnition;
+
+
+        }
     }
 }
+
+

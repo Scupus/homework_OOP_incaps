@@ -11,7 +11,6 @@ public class CarList {
         cars[3] = new Transport.Car("Kia", "Sportage 4", 2.4f, "Красный", 2018, "Южная корея", "Механика",
                 "Седан", "д320дч", 4,"Летняя");
     }
-
     public void printCarList() {
 
         for (int i = 0; i < Transport.Car.getCount() - 1; i++) {
